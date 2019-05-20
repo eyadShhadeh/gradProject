@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845924700656",
+    "firebase_url": "https://fire-lazqa.firebaseio.com",
+    "project_id": "fire-lazqa",
+    "storage_bucket": "fire-lazqa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845924700656:android:25c53101ef0a4077",
+        "android_client_info": {
+          "package_name": "com.example.me.lazqaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845924700656-7iial3nsocsl98l6qgkj7vd671nndipq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.me.lazqaapp",
+            "certificate_hash": "3675e6ff4bc817913ca6fd740dda7db710fbb838"
+          }
+        },
+        {
+          "client_id": "845924700656-011od9pfka28jvo0subogcpv7q8acv81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAwGYnluuiJSwVVzI6rAVwH5N-BQMQz2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845924700656-011od9pfka28jvo0subogcpv7q8acv81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

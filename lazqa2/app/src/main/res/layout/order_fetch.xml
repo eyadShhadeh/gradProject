@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="OrderFetch">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:id="@+id/topWear_fetch_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Top Wear"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:paddingBottom="5dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/topWear_fetchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topWear_fetch_label"
+            android:nestedScrollingEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/laptop_fetch_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topWear_fetchList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:text="LapTop Covers"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:paddingBottom="5dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/laptop_fetchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/laptop_fetch_label"
+            android:nestedScrollingEnabled="false"/>
+
+
+        <TextView
+            android:id="@+id/mug_fetch_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/laptop_fetchList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Mugs"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:paddingBottom="5dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mug_fetchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mug_fetch_label"
+            android:nestedScrollingEnabled="false"/>
+
+        <TextView
+            android:id="@+id/other_fetch_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mug_fetchList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="other"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:paddingBottom="5dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/other_fetchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/other_fetch_label"
+            android:nestedScrollingEnabled="false"/>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</LinearLayout>
